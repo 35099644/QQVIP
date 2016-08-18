@@ -35,7 +35,7 @@ public class Friend {
 
     /**
      * hook Friend.getServiceLevel()
-     * 改变返回值为7 （SVIP为7级） 1~7
+     * 改变返回值为7 （SVIP为7级）
      */
     private static void hookGetServiceLevel() {
         XposedHelpers.findAndHookMethod(FriendClass,
